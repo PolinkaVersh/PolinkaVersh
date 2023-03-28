@@ -14,7 +14,7 @@ jobs:
       - name: npm install, test and build
         run:
           npm install
-          npm rum test
+          npm run test
           npm run build
       - name: Run a multi-line script
         run:
